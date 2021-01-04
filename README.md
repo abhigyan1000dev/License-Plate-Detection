@@ -9,9 +9,8 @@ That is, it will recognize and “read” the text embedded in images. Python-te
 We Created contour around the image and then throughout the image we select the region ,having the
 top (30 contours) and then selected the region which was bounded by the 4 sides throughout.
 
-->
-    This perimeter finding thing was done through the function called ArcLength() in python 
-->
+This perimeter finding thing was done through the function called ArcLength() in python 
+
 
 After finding the Cropped image of the Number Plate/License Plate,
 At the end we used the Pytesseract module to get the text from the cropped image i.e Licensed Plate
